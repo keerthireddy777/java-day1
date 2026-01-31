@@ -5,10 +5,13 @@ public class Demo1 {
         int age=sc.nextInt();
         double a=sc.nextDouble();
         float b=sc.nextFloat();
-        String str2 =sc.nextLine();
+        String str1 =sc.next();
+        Scanner ob=new Scanner(System.in);
+        String str2=ob.nextLine();
         System.out.println(age);
         System.out.println(a);
-        System.err.println(b);
+        System.out.println(b);
+        System.out.println(str1);
         System.out.println(str2);
 
         
